@@ -24,7 +24,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors())
 
-app.get('/',(req,res) => {res.send(database.users)})
+app.get('/',(req, res) => {res.send('it is working!')})
 
 app.post('/signin', (req, res) => { signin.handleSignin(req, res, db, bcrypt) })
 
@@ -36,9 +36,9 @@ app.put('/image', (req, res) => { image.handleImage(req, res, db) })
 
 app.post('/imageUrl', (req, res) => { image.handleApiCall(req, res,) })
   
-app.listen(3000, ()=> {
-    console.log('app listening on port 3000!');
-})
+app.listen(process.env.PORT || 3000, ()=> {
+console.log(`app runing on port ${process.env.PORT}`);
+}) 
 
 
 
