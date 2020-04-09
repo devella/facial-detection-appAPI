@@ -4,5 +4,5 @@ To view a live example, **[click here](https://face-detection-game.herokuapp.com
 
 # App Image!
 
-![face image](faceimage.png)
-<img src="path/to/image" width=300>
+!
+<img src="image/faceimage.png" width=300>
