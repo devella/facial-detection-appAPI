@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To view a live example, **[click here](https://face-detection-game.herokuapp.com/)**
 
-# faceimage!
+# App Image!
 
 ![face image](faceimage.png)
+<img src="path/to/image" width=300>
