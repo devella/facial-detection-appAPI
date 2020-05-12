@@ -9,13 +9,26 @@ To view a live example, **[click here](https://face-detection-game.herokuapp.com
   <br>
 </h2>
 
-Technologies Used
 
+## Front-End
 
-Front-End, HTML5, CSS3, React.js, NPM Packages, Create-React-App, Tachyons,
-react-tilt, particles.js, Bcrypt, Postgresql, knex, body parser, cors, express
+- HTML5, 
+- CSS3, 
+- React.js
 
-APIs
+## NPM Packages
 
+- Create-React-App, 
+- Tachyons, 
+- react-tilt,
+- particles.js, 
+- Bcrypt, 
+- Postgresql, 
+- knex, 
+- body parser, 
+- cors express.
 
-Clarifai, face-detectionAPI
+## APIs
+
+- Clarifai
+- Smart Brain API
